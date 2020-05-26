@@ -1,0 +1,4 @@
+
+DROP DATABASE IF EXISTS pacashop;
+
+CREATE DATABASE pacashop;
