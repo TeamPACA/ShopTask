@@ -2,7 +2,7 @@
   "name": "shoptask",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,10 +18,6 @@
   "homepage": "https://github.com/TeamPACA/ShopTask#readme",
   "dependencies": {
     "express": "^4.17.1",
-<<<<<<< HEAD
-=======
-    "express-handlebars": "^4.0.4",
->>>>>>> 9ea87fa8ce20d6538ed7f06105dbc9d09d3db0b4
     "mysql2": "^2.1.0",
     "sequelize": "^5.21.10"
   }
