@@ -22,7 +22,7 @@ module.exports = function(sequelize, DataTypes){
     });
 
     user.associate = function(models){
-        catetgory.hasMany(models.orders, {
+        user.hasMany(models.orders, {
         })
     };
 
