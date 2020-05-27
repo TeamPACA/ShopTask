@@ -29,20 +29,12 @@ module.exports = function(sequelize, DataTypes){
     });
 
     item.associate = function(models){
-        item.belongsTo(models.group,{
+        item.belongsTo(models.category,{
             foreignKey: {
                 allowNull: false
             }
         });
     };
 
-    item.associate = function(models){
-        item.belongsTo(models.orders,{
-            foreignKey: {
-                allowNull: false
-            }
-        });
-    };
-
-    return item
+    return item;
 };
